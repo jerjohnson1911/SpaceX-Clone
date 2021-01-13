@@ -1,0 +1,117 @@
+html { 
+    background: url(Iridium-4-2.jpg) no-repeat center center fixed; 
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+  }
+
+body{
+    text-transform: uppercase;
+    color: aliceblue;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 11vh;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+#logo{
+    width: 200px;
+    height: 25px;
+    position: relative;
+    bottom: 8px;
+    margin-left: 70px;
+    
+    
+}
+
+#navigation{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 250px;
+
+    
+
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-item{
+    font-size: .9em;
+    margin: 10px;
+}
+
+.shop-nav{
+    font-size: .9em;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 50px;
+    
+}
+
+.wrapper{
+    display: flex;
+    height: 1em;
+    width: 1em;   
+    flex-direction: column;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    
+}
+
+.hbmenu{
+    background-color: aliceblue;
+    width: 20px;
+    height: 2px;
+    margin-left: 25px;
+}
+
+h1{
+    font-size: 45px;
+    letter-spacing: -.05em;
+    margin-top: 10px;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+.lower{
+    position: absolute;
+    bottom: 150px;
+    right: 450px;
+  
+}
+
+.replay{
+    margin-top: 40px;
+    border: aliceblue 2px solid;
+    text-transform: uppercase;
+    background: 0%;
+    height: 54px;
+    width: 164px;
+    color: aliceblue;
+    font-size: .75em;
+    
+
+}
+.replay:hover{
+    transition: background-color 0.5s ease;
+    background-color: aliceblue;
+    color: black;
+        
+}
